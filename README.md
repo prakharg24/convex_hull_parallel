@@ -1,3 +1,9 @@
 # convex_hull_parallel
 
-Serial and parallel implementation of the quick hull algorithm using OpenMP
+Parallel implementation of the quick hull algorithm using OpenMP
+
+
+To run
+
+$ g++ main.cpp convexhull.cpp -fopenmp -g
+$ ./a.out <input_file.ascii.pbm
